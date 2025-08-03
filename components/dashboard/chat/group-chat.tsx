@@ -4,6 +4,7 @@ import { mockChatMessages } from '@/lib/mock-data';
 
 const GroupChat = () => {
   const [message, setMessage] = useState('');
+  const [chatStatus, setChatStatus] = useState('');
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
