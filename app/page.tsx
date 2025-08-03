@@ -9,6 +9,8 @@ import Footer from '../components/landing/footer';
 const HomePage = () => {
   return (
     <main>
+
+
       <Header />
       <Features />
       <About />
