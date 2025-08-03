@@ -4,7 +4,6 @@ import { mockChatMessages } from '@/lib/mock-data';
 
 const GroupChat = () => {
   const [message, setMessage] = useState('');
-  const [chatStatus, setChatStatus] = useState<'pending' | 'active'>('pending');
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -32,7 +31,7 @@ const GroupChat = () => {
           </div>
           <h3 className="text-lg font-medium text-gray-900 mb-2">Chat Activation Pending</h3>
           <p className="text-gray-600 max-w-md mx-auto">
-            Your chat access is currently under review. You'll be notified once an admin activates your account.
+            Your chat access is currently under review. You will be notified once an admin activates your account.
           </p>
         </div>
       ) : (

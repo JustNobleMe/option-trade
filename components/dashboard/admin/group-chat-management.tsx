@@ -54,10 +54,6 @@ const GroupChatManagement = () => {
     setMessages(prev => prev.filter(msg => msg.message_id !== messageId));
   };
 
-  const handlePinMessage = (messageId: string) => {
-    // Implementation for pinning messages
-  };
-
   return (
     <div className="space-y-6">
       <div className="border-b border-gray-200 pb-4">

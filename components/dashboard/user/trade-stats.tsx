@@ -1,6 +1,5 @@
 "use client";
 import React from 'react';
-import { mockTrades } from '@/lib/mock-data';
 
 const TradeStats = () => {
   return (

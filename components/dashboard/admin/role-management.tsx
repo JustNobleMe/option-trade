@@ -10,7 +10,7 @@ interface Role {
 }
 
 const RoleManagement = () => {
-  const [roles, setRoles] = useState<Role[]>([
+  const [roles] = useState<Role[]>([
     {
       id: 1,
       name: "Admin",
