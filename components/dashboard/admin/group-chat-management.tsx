@@ -56,7 +56,8 @@ const GroupChatManagement = () => {
 
   const handlePinMessage = (messageId: string) => {
     // Implementation for pinning messages
-    const message = messageId
+    const message = messageId;
+    console.log(message)
   };
 
   return (
